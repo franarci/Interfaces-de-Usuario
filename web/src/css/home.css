@@ -1,0 +1,39 @@
+.home{
+    background-color: lavender;
+}
+
+.series{
+    padding-top: 20px;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.serie {
+    box-sizing: content-box;
+}
+
+.movies{
+    padding-top: 100px;
+}
+
+.poster { 
+    width: 100%;
+    max-width: 130px;
+    height:100%;
+}
+
+.contenido-titulo{
+    color: black;
+    padding-left: 40px;
+}
+
+
+/*carousel*/
+
+  
+ 

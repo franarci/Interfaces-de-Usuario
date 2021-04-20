@@ -1,0 +1,52 @@
+.tituloYDesc{
+    position: relative;
+    width: 460px;
+    top: 100px;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portada{
+    position: absolute;
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.descripcion{
+    color: rgb(99, 99, 99);
+}
+
+
+.temporadas{
+    position: relative;
+    width: 460px;
+    top: 150px;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#temporada-container{
+    background-color: rgba(233, 233, 233, 0.534) ;
+    position: relative;
+}
+
+.related-content {
+    position: relative;
+    top: 130px;
+}
+
+#h2-seasons{
+    font-size: 30px;
+    background-color: darkslategray;
+    color: rgb(214, 214, 214);
+}
+
+.h1-rel-cont{
+    font-size: 30px;
+    color: rgb(29, 29, 29);
+    background-color: rgba(240, 240, 240, 0.705);
+}

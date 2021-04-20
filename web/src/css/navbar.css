@@ -1,0 +1,31 @@
+
+#logo{
+    width: 50%;
+    height: 50%;
+    float: left;
+    display: block;
+    position: relative;
+  }
+
+.form-control{
+    width: 300px;
+    height: 35px;
+    margin-left: 600px;
+
+}
+
+.btn{
+    background-color: gainsboro;
+    color: rgb(71, 2, 2);
+    border-color: rgb(36, 3, 3);
+    margin-right: 100px;
+    text-align: center;   
+}
+
+.lonk{
+    color: azure;
+}
+.lonk:hover{
+    color:azure;
+}
+  

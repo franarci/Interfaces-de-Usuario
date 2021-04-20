@@ -1,0 +1,108 @@
+.player {
+    background-color: #FAFAFA;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.player-container{
+box-sizing: content-box;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 15px;
+margin-right: auto;
+min-height: 600px;
+min-width: 900px;
+padding-left: 50px;
+padding-right: 68px;
+text-size-adjust: 100%;
+text-align: left;
+-webkit-box-direction: normal;
+-webkit-box-orient: horizontal;
+}
+
+.container {
+    max-width:64rem;
+    width:100%;
+    max-height:30.875rem;
+    height:100%;
+    margin:1.25rem auto;
+    padding:1.051%;
+    background-color:  rgba(0, 0, 0, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .controls {
+    width:100%;
+    position: sticky;
+    box-sizing: content-box;
+    background-color: rgba(0, 0, 0, 0.904); 
+    margin-top: -19.8px; 
+}
+
+ .controls button {
+    border:none;
+    cursor:pointer;
+    background:transparent;
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding-bottom: 10px;
+    color: blanchedalmond;
+
+ }
+ .controls button:hover, .controls button:focus {
+    opacity:0.5;
+ }
+
+ .controls button[data-state="play"] {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAA ... ');
+ }
+ 
+ .controls button[data-state="pause"] {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAA ... ');
+ }
+
+ .controls{
+    box-sizing: content-box;
+    width:100%;
+    border:none;
+    color:#0095dd;
+
+ }
+
+ #play-middle{
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+ }
+
+#play-middle :active {
+	position:relative;
+	top:1px;
+}
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(78, 6, 6);
+    border-bottom: 50px solid transparent;
+	display:inline-block;
+	cursor:pointer;
+	width: 0;
+    height: 0;
+
+  }
+
+
+  

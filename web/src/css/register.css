@@ -1,0 +1,128 @@
+
+/*https://st2.depositphotos.com/1076754/5401/v/450/depositphotos_54010673-stock-illustration-cinema-with-white-screen-and.jpg*/
+/*DARTH https://thewallpaper.co//wp-content/uploads/2016/10/1280x1024-movies-wallpapers-hd-desktop-wallpapers-cool-images-hd-download-apple-background-wallpapers-windows-colourfull-lovely-wallpapers-1280x1024.jpg
+*/
+
+/*https://www.readersdigest.ca/wp-content/uploads/2012/09/movies-made-great-white-north.jpg*/
+
+.register-body{
+background-color: rgba(0, 0, 0, 0.40);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+box-sizing: content-box;
+color: lavenderblush;
+display: flex;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 15px;
+margin-right: auto;
+min-height: 600px;
+min-width: 380px;
+padding-left: 50px;
+padding-right: 68px;
+padding-top: 20px;
+text-size-adjust: 100%;
+width: 550px;
+text-align: left;
+-webkit-box-direction: normal;
+-webkit-box-orient: vertical;
+}
+
+.register-form-main{
+  color: rgb(51, 51, 51);
+  display: block;
+  flex-grow: 1;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  -webkit-box-flex: 1;
+
+}
+
+.form-block{
+
+    text-align: left;
+    margin-left: 15px;
+    margin-top: px;
+}
+
+.completa-tus-datos {
+    color: rgb(170, 168, 168);
+    font-size: 32px;
+    font-weight: 700px;
+    margin-block-end: 28px;
+    margin-bottom: 40px;
+    text-size-adjust: 100%;
+    
+}
+
+h2 { 
+  color: rgb(170, 168, 168);
+  font-size: 17px;
+}
+
+
+.btn-danger{
+    position: relative;
+    background-color: rgb(85, 29, 15);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 350px;
+}
+
+.name{
+    width: 350px;
+    background-color: lemonchiffon;
+    color: black;
+
+}
+
+.email{
+  width: 350px;
+  background-color: lemonchiffon;
+  color: black;
+
+}
+
+.password{
+  width: 350px;
+  background-color: lemonchiffon;
+  color: black;
+
+}
+
+.creditCard{
+    width: 350px;
+    background-color: lemonchiffon;
+    color: black;
+}
+
+
+.logo{
+  width: 125px;
+  height: 125px;
+  display: initial;
+  position: relative;
+  margin-top: -115px;
+}
+
+.text-body{
+    position: absolute;
+    width: 460px;
+    top: 100px;
+    right: 55px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0) ;
+    word-wrap: break-word;
+}
+
+.p-register {
+    color: gainsboro;
+}
